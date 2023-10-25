@@ -1,0 +1,21 @@
+{
+  "database": {
+    "rules": "database.rules.json",
+    "site": "websencilla",
+    "public": "index2"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
