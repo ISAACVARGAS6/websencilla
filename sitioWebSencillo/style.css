@@ -1,0 +1,16 @@
+body{
+    background-color: var(gray);
+    background-image: url(batman.png);
+    background-repeat: no-repeat;
+  
+}
+img{
+    justify-self: left;
+    opacity: 0.5;
+}
+footer{
+
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
